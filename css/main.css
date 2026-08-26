@@ -86,8 +86,8 @@ nav li a {
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
-    z-index: -1;
 }
 
 .abt-hero-img{
@@ -96,6 +96,7 @@ nav li a {
     height:600px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
     justify-content: center;
 }
@@ -127,10 +128,12 @@ nav li a {
     align-items: center;
     justify-content: center;
     text-align: left;
-    width: 750px;
+    
 }
 
-
+.hero-alt h1{
+    font-size: 60px;
+}
 
 
 .hero h1{
