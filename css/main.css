@@ -81,7 +81,7 @@ nav li a {
 
 .index-hero-img{
     display: flex;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/hero/hero_img.png");
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../img/hero/index-hero-img.png");
     background-color: #ffffff;
     height: 600px;
     background-size: cover;
@@ -101,12 +101,47 @@ nav li a {
     justify-content: center;
 }
 
-.rec-hero-img{
+.gallery-hero-img{
     display: flex;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero/abt-hero-img.png);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../img/hero/gallery-hero-img.png);
     height:600px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Recruit Hero Section */
+.rec-hero-img{
+    display: flex;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero/rec-hero-img.png);
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.perf-hero-img{
+    display: flex;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero/perf-hero-img.JPG);
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-hero-img{
+    display: flex;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero/contact-hero-img.png);
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
     justify-content: center;
 }
@@ -127,8 +162,7 @@ nav li a {
     color:antiquewhite;
     align-items: center;
     justify-content: center;
-    text-align: left;
-    
+    text-align: center;
 }
 
 .hero-alt h1{
@@ -186,6 +220,16 @@ nav li a {
     overflow: hidden;
 }
 
+.main-block-wide{
+    position: relative;
+    display: block;
+    line-height: 1.2;
+    padding: 2.5em 0;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1366px;
+    overflow: hidden;
+}
 
 /*images, right alignment*/
 .img-right {
@@ -250,7 +294,7 @@ ul.performance-info {
     list-style: none; /*removes the bullet points*/
     float: left;
     display: block;
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 /* the attributes of the performance posters */
