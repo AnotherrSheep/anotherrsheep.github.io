@@ -124,9 +124,10 @@ nav li a {
     justify-content: center;
 }
 
+/* Performances Hero Section */
 .perf-hero-img{
     display: flex;
-    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero/perf-hero-img.JPG);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../img/hero/perf-hero-img.png);
     height:600px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -549,24 +550,45 @@ span {
     font-size: 48px;
 }
 
-.recruitment-text{
-    position: flex;
-    flex-direction: column;
-    text-align: center;
-    display: block;
-    line-height: 1.2;
-    padding: 2.5em 0;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1080px;
-    overflow: hidden;
-}
 
-.recruitment-text a{
+.main-block a{
     color:chocolate
 }
 
-.recruitment-text a:hover{
+.main-block a:hover{
     color: #2d2d2d;
     border-bottom: 2px solid chocolate;
+}
+
+.main-block li a{
+    color:chocolate
+}
+
+.main-block li a:hover{
+    color: #2d2d2d;
+    border-bottom: 2px solid chocolate;
+}
+
+.contact-ul {
+    margin: 0rem;
+    padding: 0.25rem 0rem 0rem 0rem;
+    text-align:justify;
+    vertical-align: middle;
+}
+
+.contact-ul li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+}
+
+.contact-icon{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    display: table-cell;
+    margin-right: 0.25rem;
+    filter: brightness(0) saturate(100%);
 }
