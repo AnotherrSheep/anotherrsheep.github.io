@@ -78,6 +78,17 @@ nav li a {
     text-transform: uppercase;
 }
 
+nav li a:hover{
+    display: block;
+    text-align: center;
+    color: antiquewhite;
+    border-bottom: 4px solid antiquewhite;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 /* HERO */
 
 .index-hero-img{
